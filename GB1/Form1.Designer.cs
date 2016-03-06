@@ -54,6 +54,7 @@
             this.btnGenarate = new System.Windows.Forms.Button();
             this.lblFrom = new System.Windows.Forms.Label();
             this.tabPage3 = new System.Windows.Forms.TabPage();
+            this.textBox1 = new System.Windows.Forms.TextBox();
             this.menuStrip1.SuspendLayout();
             this.tabControl1.SuspendLayout();
             this.tabPage1.SuspendLayout();
@@ -62,6 +63,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDown3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDown2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDown1)).BeginInit();
+            this.tabPage3.SuspendLayout();
             this.SuspendLayout();
             // 
             // menuStrip1
@@ -341,12 +343,22 @@
             // 
             // tabPage3
             // 
+            this.tabPage3.Controls.Add(this.textBox1);
             this.tabPage3.Location = new System.Drawing.Point(4, 22);
             this.tabPage3.Name = "tabPage3";
             this.tabPage3.Size = new System.Drawing.Size(276, 212);
             this.tabPage3.TabIndex = 2;
             this.tabPage3.Text = "Text Editor";
             this.tabPage3.UseVisualStyleBackColor = true;
+            // 
+            // textBox1
+            // 
+            this.textBox1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.textBox1.Location = new System.Drawing.Point(0, 0);
+            this.textBox1.Multiline = true;
+            this.textBox1.Name = "textBox1";
+            this.textBox1.Size = new System.Drawing.Size(276, 212);
+            this.textBox1.TabIndex = 0;
             // 
             // Utils
             // 
@@ -369,6 +381,8 @@
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDown3)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDown2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDown1)).EndInit();
+            this.tabPage3.ResumeLayout(false);
+            this.tabPage3.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -402,6 +416,7 @@
         private System.Windows.Forms.Label lblCountOfNums;
         private System.Windows.Forms.NumericUpDown numericUpDown3;
         private System.Windows.Forms.TabPage tabPage3;
+        private System.Windows.Forms.TextBox textBox1;
     }
 }
 
