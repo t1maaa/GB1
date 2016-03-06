@@ -54,7 +54,7 @@
             this.btnGenarate = new System.Windows.Forms.Button();
             this.lblFrom = new System.Windows.Forms.Label();
             this.tabPage3 = new System.Windows.Forms.TabPage();
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.txtbxEditor = new System.Windows.Forms.TextBox();
             this.menuStrip1.SuspendLayout();
             this.tabControl1.SuspendLayout();
             this.tabPage1.SuspendLayout();
@@ -343,7 +343,7 @@
             // 
             // tabPage3
             // 
-            this.tabPage3.Controls.Add(this.textBox1);
+            this.tabPage3.Controls.Add(this.txtbxEditor);
             this.tabPage3.Location = new System.Drawing.Point(4, 22);
             this.tabPage3.Name = "tabPage3";
             this.tabPage3.Size = new System.Drawing.Size(276, 212);
@@ -351,14 +351,14 @@
             this.tabPage3.Text = "Text Editor";
             this.tabPage3.UseVisualStyleBackColor = true;
             // 
-            // textBox1
+            // txtbxEditor
             // 
-            this.textBox1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.textBox1.Location = new System.Drawing.Point(0, 0);
-            this.textBox1.Multiline = true;
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(276, 212);
-            this.textBox1.TabIndex = 0;
+            this.txtbxEditor.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.txtbxEditor.Location = new System.Drawing.Point(0, 0);
+            this.txtbxEditor.Multiline = true;
+            this.txtbxEditor.Name = "txtbxEditor";
+            this.txtbxEditor.Size = new System.Drawing.Size(276, 212);
+            this.txtbxEditor.TabIndex = 0;
             // 
             // Utils
             // 
@@ -416,7 +416,7 @@
         private System.Windows.Forms.Label lblCountOfNums;
         private System.Windows.Forms.NumericUpDown numericUpDown3;
         private System.Windows.Forms.TabPage tabPage3;
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox txtbxEditor;
     }
 }
 
